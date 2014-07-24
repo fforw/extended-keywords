@@ -1,5 +1,5 @@
 {
-  "name": "konalyzer",
+  "name": "extended-keywords-transform",
   "version": "0.0.1",
   "description": "Helper tool to anaylze Kony javascript files",
   "main": "main.js",
