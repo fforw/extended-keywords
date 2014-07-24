@@ -2,11 +2,11 @@
 // (int|throws|public|enum|byte)
 
 var assert = {
-    public: "value",
+    short: "value",
     mid: {
 
     },
-    enum: {
+    float: {
 
     }
 };
@@ -21,12 +21,12 @@ assert.throws = function()
 };
 
 assert.mid.int = 12;
-assert.enum.end = "foo";
+assert.float.end = "foo";
 
 
 console.log(assert.throws());
 console.log(assert.mid.int);
-console.log(assert.enum.end);
-console.log(assert.public);
+console.log(assert.float.end);
+console.log(assert.short);
 console.log(byte);
 console.log(_byte);
